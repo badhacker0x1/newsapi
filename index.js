@@ -1,6 +1,6 @@
 const express  = require('express')
 const axios = require('axios')
-const PORT = 6969 || process.env.PORT
+const PORT = process.env.PORT || 5000;
 const cheerio = require('cheerio')
 const { response } = require('express')
 const app = express()
